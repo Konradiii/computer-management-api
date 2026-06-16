@@ -32,15 +32,15 @@ Endpointy zwracają statusy HTTP zgodne z rezultatem operacji (200, 201, 204, 40
 
 ## Zastosowane praktyki
 
-- **Architektura warstwowa** — rozdzielenie logiki biznesowej od warstwy API/prezentacji.
-- **DTO** — osobne klasy dla danych przychodzących, zwracanych oraz operacji tworzenia/aktualizacji (encje bazy nie są udostępniane bezpośrednio przez API).
+- **Architektura warstwowa** - rozdzielenie logiki biznesowej od warstwy API/prezentacji.
+- **DTO** - osobne klasy dla danych przychodzących, zwracanych oraz operacji tworzenia/aktualizacji (encje bazy nie są udostępniane bezpośrednio przez API).
 - **Operacje asynchroniczne** (`async/await`) w komunikacji z bazą danych.
 - **Migracje EF Core** dołączone do repozytorium.
 - Czytelny podział na katalogi, zgodny z konwencjami C# i ASP.NET Core.
 
 ## Technologie
 
-- C# / .NET — ASP.NET Core Web API
+- C# / .NET - ASP.NET Core Web API
 - Entity Framework Core (Code First, migracje, seed data)
 - Microsoft SQL Server
 
